@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec  7 17:26:25 2021
-
-@author: ABBL257
-"""
 
 horizontal = 0
 depth = 0
