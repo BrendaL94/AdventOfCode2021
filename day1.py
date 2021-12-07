@@ -1,3 +1,4 @@
+"""https://adventofcode.com/2021"""
 
 file = open("input_day1.txt", "r")
 depth = file.read().splitlines()
