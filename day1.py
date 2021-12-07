@@ -1,5 +1,5 @@
 
-file = open("input.txt", "r")
+file = open("input_day1.txt", "r")
 depth = file.read().splitlines()
 depth = [int(i) for i in depth]
 file.close()
