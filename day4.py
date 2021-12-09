@@ -49,7 +49,7 @@ for i in bingo_numbers:
             winning_order.append(k)
             board_numbers.remove(k)
             
-    # check if it's the last winning block or if we've reached the end of bingo numbers
+    # check if it's the last winning board or if we've reached the end of bingo numbers
     if ((len(winning_order) == num_boards) or (i == bingo_numbers[-1])):
         last_board = np.reshape(np.ravel(cross_out), (num_boards,5,5))[winning_order[-1]]
         mask = last_board != -1
