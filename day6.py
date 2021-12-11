@@ -15,7 +15,7 @@ fish_tracker = np.arange(0, 9, dtype='int64')
 for i in range(0, 9):
     fish_tracker[i] = (np.array(fish_list)==i).sum()
 
-for i in range(0, days):
+for _ in range(0, days):
     num_new_fish = fish_tracker[0]
 
     fish_tracker = deque(fish_tracker)
