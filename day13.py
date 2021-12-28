@@ -70,8 +70,8 @@ for i in instructions[:1]:
     new_board = []
     # fold horizontally
     if fold_direction == 'y':
-        for col in range(0, fold_amount):
-            new_board.append(["{}{}".format(a_, b_) for a_, b_ in zip(board[col], board[-(col+1)])])
+        for row in range(0, fold_amount):
+            new_board.append(["{}{}".format(a_, b_) for a_, b_ in zip(board[row], board[-(row+1)])])
     # fold vertically
     elif fold_direction == 'x':
         for row in range(0, len(board)):
